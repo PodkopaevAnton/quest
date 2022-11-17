@@ -1,11 +1,11 @@
-package ru.javarush.golf.quest;
+package ru.javarush.golf.quest.controller;
 
 import java.io.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
+public class GameServlet extends HttpServlet {
     private String message;
 
     public void init() {
